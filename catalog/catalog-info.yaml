@@ -10,7 +10,9 @@ metadata:
     - web
   annotations:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tanzu-wld-java-web-app'
+    'backstage.io/kubernetes-namespace': team1-dev
 spec:
   type: service
+  system: customer-service
   lifecycle: experimental
-  owner: default-team
+  owner: team1
